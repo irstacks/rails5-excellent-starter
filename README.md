@@ -6,6 +6,7 @@ Specified database is Postgresql, which is the open source version of MySQL. Her
 
 
 To get er up and running - 
+- `$ bundle install` (you may need to install `Bundler` gem first in your gemset)
 - `$ rails db:setup `
 - `$ rails db:migrate`
 - `$ rails s` 
