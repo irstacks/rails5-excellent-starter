@@ -10,6 +10,7 @@ To get er up and running -
 - `$ rails db:setup `
 - `$ rails db:migrate`
 - `$ rails s` 
+- `$ guard -P livereload` in separate terminal adjacent to server
 
 
 

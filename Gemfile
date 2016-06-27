@@ -44,7 +44,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   # Live Reload per https://mattbrictson.com/lightning-fast-sass-reloading-in-rails
-  # And run `$ guard init livereload` after `$ bundle install`. 
   # Then `$ guard -P livereload` in separate terminal adjacent to server. 
   gem "guard", ">= 2.2.2", :require => false
   gem "guard-livereload",  :require => false
