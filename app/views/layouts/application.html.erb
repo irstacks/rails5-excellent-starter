@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RbRails5Pg</title>
+    <title>Excellent!</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= include_gon(init: true) # Get gon. %>
+    <%= javascript_include_tag "//www.google.com/jsapi" # For Chartkick.%>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+
+  	<!-- Count queries for maximize speeeeeeed. -->
+  	<% if Rails.env.development? %>
+  		<%= query_diet_widget %>
+  	<% end %>
+  	<!-- makes getResponsiveBreakpoints() available in js -->
+  	<%= render 'layouts/responsive_breakpoints' %>
+  
+  	<div class="container p-a-1">
+	  	<%= render partial:'layouts/flash_messages' %>
+	  	<%= yield %>	
+  	</div>
+
+
+  	<!-- make error notifications prettier -->
+  	<script>
+  	  $(function () {
+  	    var error_shower = $('#error_explanation');
+  	    error_shower.addClass('alert alert-danger');
+  	    error_shower.find('h2').replaceTagName('strong');
+  	    $('.field_with_errors').addClass('text-danger');
+  	  });
+  	</script>
+
+  	<% if Rails.env.development? # Show debug params for mindfulness. %>
+  	  <div class="container">
+  	    <hr>
+  	    <div class="row">
+  	      <pre>
+  	      <%= debug(params)  %>
+  	      </pre>
+  	    </div>
+  	  </div>
+
+  	<% end %>
+  
   </body>
+
 </html>

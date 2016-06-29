@@ -1,0 +1,14 @@
+// Vertical align things. 
+// <div class="va-container">
+//  <div class="va">
+//  </div>
+// </div>
+// .va-container { height: 100vh; }
+// .va { display: inline-block; @include vertical-align(); }
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

@@ -50,7 +50,7 @@ gem 'carrierwave', github: 'carrierwaveuploader/carrierwave' # File uploads. htt
 gem "fog-aws" # For CarrierWave S3 file storage. Needs to be configured in initializers/carrierwave.rb. Look it up. 
 gem 'jquery-fileupload-rails' # Pretty file uploads. 
 gem 'mini_magick' # If you want to do resizing uploads. (Don't forget `$ brew install imagemagick`).
-gem 'nokogiri', '1.6.6.2' # For parsing shit. 
+gem 'nokogiri' # For parsing shit. 
 gem 'redcarpet' # Markdown rendering. 
 gem 'descriptive_statistics', :require => 'descriptive_statistics/safe' # Do math. 
 gem 'impressionist' # Popularity contestifier.

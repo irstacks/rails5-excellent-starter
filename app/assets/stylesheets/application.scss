@@ -1,0 +1,8 @@
+// Custom bootstrap variables must be set or imported before bootstrap itself.
+@import 'variables'; // Customize BS4 variables. 
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+@import 'mixins'; 
+@import 'scaffolds'; // Use BS4 classes for usual suspects.

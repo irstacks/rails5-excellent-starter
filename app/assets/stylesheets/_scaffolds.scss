@@ -1,0 +1,6 @@
+// Inherit BS4 classes for major elements.
+button { @extend .btn; }
+table { @extend .table; }
+.field { @extend .form-group; }
+input { @extend .form-control; }
+
