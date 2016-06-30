@@ -15,6 +15,11 @@
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
+// require ahoy
+// require d3
+// require highcharts/highcharts
+// require highcharts/highcharts-more
+// require chartkick
 // require angular
 // require angular-resource
 // require angular-ui-router
