@@ -5,8 +5,8 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= include_gon(init: true) # Get gon. %>
-    <%= javascript_include_tag "//www.google.com/jsapi" # For Chartkick.%>
+    <% # include_gon(init: true) # Get gon. %>
+    <%# javascript_include_tag "//www.google.com/jsapi" # For Chartkick.%>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
@@ -14,7 +14,7 @@
 
   	<!-- Count queries for maximize speeeeeeed. -->
   	<% if Rails.env.development? %>
-  		<%= query_diet_widget %>
+  		<%# query_diet_widget %>
   	<% end %>
   	<!-- makes getResponsiveBreakpoints() available in js -->
   	<%= render 'layouts/responsive_breakpoints' %>
