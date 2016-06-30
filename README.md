@@ -27,7 +27,7 @@ A big part of the objective for me for making this starter is keeping a running 
 
 
 ### Make it your own.
-When you clone the starter, you'll clone an existing app named _RbRails5Pg_, which I'm guessing isn't what you want to name your app.  Globally find and replace `RbRails5Pg` and `rb-rails5-pg`. There should be 1 occurence in 1 file (`application.rb`) and 7 occurrences in 3 files, respectively.  
+When you clone the starter, you'll clone an existing app named _RbRails5Pg_, which I'm guessing isn't what you want to name your app.  Globally find and replace `RbRails5Pg` and `rb-rails5-pg`. Excepting `README.md`, there should be 1 occurence in 1 file (`application.rb`) and 7 occurrences in 3 files, respectively.  
 
 ### Set it up.
 Once you've swapped the name, you're ready to install and run. 
