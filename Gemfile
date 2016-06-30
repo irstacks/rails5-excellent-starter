@@ -70,7 +70,7 @@ gem 'font-awesome-sass', '~> 4.6.2'
 # gem 'rack-cors', :require => 'rack/cors' # For opening API so you can do headers and tokens and stuff. 
 # gem 'table_print' # Convienent for looking at tables in rails console. 
 # gem 'ahoy_matey' # Traffic tracking. (You'll need to run the init - look up installation instructions.)
-gem 'figaro' # Secret things in application.yml. https://github.com/laserlemon/figaro `bundle exec figaro install`
+# gem 'figaro' # Secret things in application.yml. https://github.com/laserlemon/figaro 
 # gem 'timeliness' # Fast date/time parsing for the control freak. http://github.com/adzap/timeliness
 gem 'rails_12factor', group: :production # I don't know exactly what it does but Heroku likes it for logs. 
 # gem 'query_diet', group: :development # Mind dose queries. 
