@@ -38,7 +38,7 @@ Once you've swapped the name, you're ready to install and run.
 - `$ guard -P livereload` in separate terminal adjacent to server (you'll need to `$ quit` to exit the livereload process)
 
 ### Look around. 
-Once alive, check out `application.html.erb`. You'll find some goodies in there which you can make use of our turn off as you like. 
+Once alive, check out `application.html.erb`. You'll find some goodies in there which you can make use of or turn off as you like. 
 - `gon` init helper
 - `query diet` widget
 - flash messages partial (with helper method in `application_helper.rb`)
